@@ -1,0 +1,92 @@
+// StudentDashboard.scss
+
+#student_portal_screen {
+    padding: 20px 40px;
+    min-height: calc(100vh - 130px);
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 20px;
+            padding: 15px 0px;
+            border-bottom: 1px solid #333;
+
+            .course-details {
+                display: flex;
+                align-items: center;
+
+                img {
+                    max-width: 250px;
+                    height: auto;
+                    border-radius: 8px;
+                    margin-right: 20px;
+                }
+
+                .course-info {
+                    h3 {
+                        margin-bottom: 5px;
+                        color: #333;
+                    }
+
+                    p {
+                        margin: 5px 0;
+                        color: #555;
+                    }
+
+                    button {
+                        background-color: #007bff;
+                        color: white;
+                        padding: 8px 12px;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background-color 0.3s;
+
+                        &:hover {
+                            background-color: #0056b3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.progress-bar-container {
+    width: 250px;
+    height: 5px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.progress-label {
+    color: #fff;
+    margin: 0 5px;
+}
+
+@media (max-width: 420px) {
+    #student_portal_screen {
+        padding: 20px 20px;
+
+        .course-details {
+            flex-direction: column;
+        }
+
+    }
+}

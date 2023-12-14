@@ -1,0 +1,18 @@
+#home_screen {
+    min-height: calc(100vh - 160px);
+    padding: 20px 40px;
+
+    .header {
+        h1 {
+            font-weight: normal;
+        }
+    }
+
+}
+
+
+@media (max-width: 420px) {
+    #home_screen {
+        // padding: 20px 20px
+    }
+}

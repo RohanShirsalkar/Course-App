@@ -1,0 +1,108 @@
+// Course Card styles
+
+
+#course_card_component {
+
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    // border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail {
+    flex: 1;
+    max-width: 300px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.card-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+
+    .card-header {
+        padding: 10px 15px;
+
+        h3 {
+            margin: 0;
+        }
+    }
+
+    .card-body {
+        padding: 15px;
+
+        p {
+            margin: 5px 0;
+        }
+    }
+
+
+    .thumbnail {
+        flex: 1;
+        max-width: 300px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .card-content {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+
+        .card-header {
+            padding: 10px 15px;
+
+            h3 {
+                margin: 0;
+            }
+        }
+
+        .card-body {
+            padding: 15px;
+
+            p {
+                margin: 5px 0;
+            }
+        }
+    }
+
+}
+
+.progress-bar-container {
+    width: 250px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.progress-label {
+    color: #fff;
+    margin: 0 5px;
+}
+
+
+@media (max-width: 420px) {
+    #course_card_component {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,88 @@
+// Navbar.scss
+
+#navbar_component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+    .brand-logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+    }
+
+    .search-bar {
+        flex: 0.5; // Smaller search bar
+        margin: 0 20px;
+        display: flex;
+
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            outline: none;
+            margin-right: 10px;
+        }
+
+        select {
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: rgb(86, 86, 255);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+    }
+
+    .nav-links {
+        a {
+            margin-left: 20px;
+            color: #333;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    // Media query for responsiveness
+    @media (max-width: 420px) {
+        flex-direction: column;
+        padding: 10px 20px;
+
+        .search-bar {
+            margin: 10px 0;
+        }
+
+        .nav-links {
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                margin: 0;
+                display: block;
+            }
+        }
+    }
+
+}

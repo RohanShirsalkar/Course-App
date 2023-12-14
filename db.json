@@ -1,0 +1,196 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://campustechnology.com/-/media/EDU/CampusTechnology/2019-Images/20191209online.jpg",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript knowledge",
+        "Familiarity with React"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced React Patterns",
+      "instructor": "Jane Smith",
+      "description": "Dive deep into advanced React patterns and best practices.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://campustechnology.com/-/media/EDU/CampusTechnology/2019-Images/20191209online.jpg",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate React knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Higher-Order Components",
+          "content": "Understanding and implementing higher-order components in React."
+        },
+        {
+          "week": 2,
+          "topic": "Render Props",
+          "content": "Exploring and mastering the render props pattern."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        },
+        {
+          "id": 104,
+          "name": "Diana Miller",
+          "email": "diana@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Node.js Fundamentals",
+      "instructor": "Michael Anderson",
+      "description": "Learn the fundamentals of server-side JavaScript with Node.js.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://campustechnology.com/-/media/EDU/CampusTechnology/2019-Images/20191209online.jpg",
+      "duration": "10 weeks",
+      "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Node.js",
+          "content": "Overview of Node.js and setting up a basic server."
+        },
+        {
+          "week": 2,
+          "topic": "Express.js Framework",
+          "content": "Building web applications with the Express.js framework."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Eva Green",
+          "email": "eva@example.com"
+        },
+        {
+          "id": 106,
+          "name": "Frank White",
+          "email": "frank@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Web Development Bootcamp",
+      "instructor": "Sarah Williams",
+      "description": "A comprehensive bootcamp covering HTML, CSS, and JavaScript.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://campustechnology.com/-/media/EDU/CampusTechnology/2019-Images/20191209online.jpg",
+      "duration": "12 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "None"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML Basics",
+          "content": "Understanding the fundamentals of HTML and document structure."
+        },
+        {
+          "week": 2,
+          "topic": "CSS Styling",
+          "content": "Applying styles to web pages using CSS."
+        }
+      ],
+      "students": [
+        {
+          "id": 107,
+          "name": "George Taylor",
+          "email": "george@example.com"
+        },
+        {
+          "id": 108,
+          "name": "Helen Brown",
+          "email": "helen@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Data Science Essentials",
+      "instructor": "David Rodriguez",
+      "description": "Explore the foundations of data science and machine learning.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://campustechnology.com/-/media/EDU/CampusTechnology/2019-Images/20191209online.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic Python knowledge",
+        "Statistics fundamentals"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of data science and its applications."
+        },
+        {
+          "week": 2,
+          "topic": "Data Analysis with Pandas",
+          "content": "Using the Pandas library for data manipulation and analysis."
+        }
+      ],
+      "students": [
+        {
+          "id": 109,
+          "name": "Isabel Turner",
+          "email": "isabel@example.com"
+        },
+        {
+          "id": 110,
+          "name": "Jack Miller",
+          "email": "jack@example.com"
+        }
+      ]
+    }
+  ]
+}
